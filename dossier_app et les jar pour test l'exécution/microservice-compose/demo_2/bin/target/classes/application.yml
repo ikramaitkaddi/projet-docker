@@ -1,0 +1,25 @@
+server:
+   port: 8050
+spring:
+  data:
+    mongodb:
+      database: bezkoderdb
+      host: javatechiemongodb
+      port: 27017
+  application:
+    name: AUTH-SERVICE
+      
+bezkoder:
+  app:
+    jwtSecret: bezKoderSecretKey
+    jwtExpirationMs: 86400000
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://server:8761/eureka
+    
+  instance:
+    hostname: server

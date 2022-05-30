@@ -1,0 +1,70 @@
+[{
+  "_id": "D136578421",
+  "date": "16-7-1999",
+  "price": 1,
+  "description": "Appartement",
+  "local": "tanger",
+  "user": {
+    "$ref": "users",
+    "$id": {
+      "$oid": "61c35bd58db06e649e90e57e"
+    }
+  },
+  "acteurs": [
+    {
+      "$ref": "acteurs",
+      "$id": "0x51eebB04e7CeDEfBd7d27eD6CAa362E7fe6C2615"
+    },
+    {
+      "$ref": "acteurs",
+      "$id": "0x97082FB80A0FCd834D2E6376A371f3CDb91a546b"
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.BienImm"
+},{
+  "_id": "lsi123",
+  "date": "16-01-2022",
+  "price": 1,
+  "description": "Bel appartement bien ensoleillé et bien situé au cœur des espaces vertes, proches de plusieurs commodités, d'une superficie de 82m² au 4ème étage avec ascenseur composé de:Hall d'entrée Grand salon2chambres avec placards Cuisine équipée avec buanderie Salle de bain/toilette avec baignoire Toilette invités séparé Balcon",
+  "local": "A 10 minutes de l’Aéroport Boukhalef -Tanger",
+  "user": {
+    "$ref": "users",
+    "$id": {
+      "$oid": "61c35bd58db06e649e90e57e"
+    }
+  },
+  "acteurs": [
+    {
+      "$ref": "acteurs",
+      "$id": "0x8B9DA20a59e5Fa5802c17DfdE83AFC1092E00B4D"
+    },
+    {
+      "$ref": "acteurs",
+      "$id": "0x51eebB04e7CeDEfBd7d27eD6CAa362E7fe6C2615"
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.Contract"
+},{
+  "_id": "lk123456",
+  "date": "16-12-2020",
+  "price": 2,
+  "description": "Appartement",
+  "local": "tanger",
+  "user": {
+    "$ref": "users",
+    "$id": {
+      "$oid": "61c35bd58db06e649e90e57e"
+    }
+  },
+  "acteurs": [
+    {
+      "$ref": "acteurs",
+      "$id": "0x25C9762de7240eCb547784016878d28b66482618"
+    },
+    {
+      "$ref": "acteurs",
+      "$id": "0xe85e012e60686FB16C53D1317114C27c325Fa847"
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.Contract"
+}]

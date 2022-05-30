@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ma.fstt.demo.CloudGetwayApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.781 s - in ma.fstt.demo.CloudGetwayApplicationTests

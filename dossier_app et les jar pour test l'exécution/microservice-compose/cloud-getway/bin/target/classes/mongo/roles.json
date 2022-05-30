@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "619a062b484abf1a1b54f891"
+  },
+  "name": "ROLE_USER"
+},{
+  "_id": {
+    "$oid": "619a062b484abf1a1b54f892"
+  },
+  "name": "ROLE_MODERATOR"
+},{
+  "_id": {
+    "$oid": "619a062b484abf1a1b54f893"
+  },
+  "name": "ROLE_ADMIN"
+}]

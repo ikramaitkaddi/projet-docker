@@ -1,0 +1,7 @@
+vous trouvez dans ce projet le dossier qui contient les fichiers principales utilisés,
+et aussi un dossier qui vous permet d'exécuter l'application selon deux approche : docker-compose et supervisord
+en utilisant les commandes de docker cités dans le rapport.
+
+githup de l'application:
+
+https://github.com/ikramaitkaddi/Tanger_Immobililer_JEE_Angular 

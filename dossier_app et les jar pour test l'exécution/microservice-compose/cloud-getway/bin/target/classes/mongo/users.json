@@ -1,0 +1,209 @@
+[{
+  "_id": {
+    "$oid": "61c35bd58db06e649e90e57e"
+  },
+  "username": "admin1",
+  "email": "admin1@gmail.com",
+  "password": "$2a$10$tYIBoNxN2Jszde86wnLoX.DFf3QDXx/2Jp7.RaRIL1McGUxxEAH86",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f893"
+      }
+    }
+  ],
+  "_class": "com.bezkoder.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "61fefb46b6bab54f20b4fdbc"
+  },
+  "username": "ikram",
+  "email": "taudghaikram@gmail.com",
+  "password": "$2a$10$jbw6Lx3LynL23zBA8A5l5uyQSTPmy19YtUuD9Mq2vZZZJT0FFmoC.",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "61ffcc10c8eb6608c5e2be4e"
+  },
+  "username": "salma",
+  "email": "salma@gmail.com",
+  "password": "$2a$10$HIdg5O9bHMaodho2JnJ.Xefyy00pweNplJFSGRdVhCIsAtFUz8tHe",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "61ffcc6bc8eb6608c5e2be4f"
+  },
+  "username": "Rachid",
+  "email": "rachid@gmail.com",
+  "password": "$2a$10$xXSIgha1XYKhZCZhwRTnXOl2vZLz6dU2gXT2gmPd1GcfXtHTMMkZa",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "61ffce32c8eb6608c5e2be52"
+  },
+  "username": "Ali",
+  "email": "ali@gmail.com",
+  "password": "$2a$10$ORRNm.32n5T1d2ccLU2neuK1.bQ2FLz8b0j5lNKrV4DcbqSOOboDi",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "62001b0cce572802a3891393"
+  },
+  "username": "sara",
+  "email": "sarat@gmail.com",
+  "password": "$2a$10$1SO2GlRVU1CeBRXK8F5o7OrgR9kvwtYaHKWaawfIuXiAASeUvazbu",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "62012d66aa55f83995569cf6"
+  },
+  "username": "iman",
+  "email": "iman@gmail.com",
+  "password": "$2a$10$otHgtkpnHjnJRce1K.IwZuwVdq3JWdKyFLXPdir1P5ymV5WjDTKdK",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "62012d89aa55f83995569cf7"
+  },
+  "username": "ahmed",
+  "email": "ahmed@gmail.com",
+  "password": "$2a$10$Exot/ra2cOjiNc/YW21fT.3QYIvkGFIXtGg2/PJahWK6P3dzHzLqe",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "62012d9eaa55f83995569cf8"
+  },
+  "username": "saad",
+  "email": "saad@gmail.com",
+  "password": "$2a$10$tGwZltSZv8VotbBgrc/AmOualKLY.J8Qosniuwqgh9OcE7klPDYEO",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "62012db3aa55f83995569cf9"
+  },
+  "username": "latifa",
+  "email": "latifa@gmail.com",
+  "password": "$2a$10$DYmvdESCpCg5VtS0Fm9PDeqDfBWWNr0SAGg.mzhV7iA1dZvUMmfMK",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "6201767caa55f83995569cfa"
+  },
+  "username": "saida karim",
+  "email": "saidakarim@gmail.com",
+  "password": "$2a$10$az1pnHor4m68KN5ZnmUkW.1ETvCxmRncua8gg5/yK18mnF2wcf4iW",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "6202302b461d93070334f1bf"
+  },
+  "username": "testlsi",
+  "email": "testlsi1@gmail.com",
+  "password": "$2a$10$w5QttAcTuGVo8NTiTVzRIOgR5tTHYHQX5P5GuTXmPPbx6VxaX4AyC",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+},{
+  "_id": {
+    "$oid": "625dabba76c55129d95f2b3f"
+  },
+  "username": "Ikram",
+  "email": "taudghaikram99@gmail.com",
+  "password": "$2a$10$4I.vGXgpKbEYz69Dc8pCGehuogliDWHcuYcHODTjeAchuc22bVJ0G",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "619a062b484abf1a1b54f891"
+      }
+    }
+  ],
+  "_class": "com.arg.spring.jwt.mongodb.models.User"
+}]

@@ -1,0 +1,116 @@
+version: '3.8'
+
+services:
+   
+    
+   javatechiemongodb:
+       image: mongo
+       container_name: "javatechiemongodb"
+       ports:
+        - "27017:27017"
+        
+   mongodb:
+     container_name: "mongodb"
+     
+     build:
+       context: ./cloud-getway/src/main/resources      
+       dockerfile: Dockerfile
+     depends_on:
+     - javatechiemongodb
+    
+     
+    
+    
+    
+   server:
+     container_name: server
+     build:
+       context: ./service-registry
+       dockerfile: Dockerfile
+     ports:
+     - "8761:8761"
+     #healthcheck:
+        #test: ["CMD", "curl", "-f", "http://localhost:8761"]
+        #interval: 30s
+        #timeout: 10s
+        #retries: 5
+   
+   cloud-getway:
+     container_name: cloud-getway
+     build:
+       context: ./cloud-getway
+       dockerfile: Dockerfile
+     environment:
+       - eureka.client.service-url.default-zone=http://server:8761/eureka
+     depends_on: 
+       - server
+      
+     ports:
+     - "9191:9191"
+     #healthcheck:
+        #test: ["CMD", "curl", "-f", "http://localhost:9191"]
+       # interval: 30s
+        #timeout: 10s
+        #retries: 5
+   
+     
+   demo_2:
+     container_name: demo_2
+     build:
+       context: ./demo_2
+       dockerfile: Dockerfile
+     environment:
+       - eureka.client.service-url.default-zone=http://server:8761/eureka
+     
+     depends_on: 
+       - server
+       - cloud-getway
+       - javatechiemongodb
+          
+        
+     ports:
+     - "8050:8050"
+     
+    
+    
+     
+   demo-etherum:
+     container_name: demo-etherum
+     build:
+       context: ./demo-etherum
+       dockerfile: Dockerfile
+     environment:
+       - eureka.client.service-url.default-zone=http://server:8761/eureka
+     depends_on:
+     - server
+     -  cloud-getway
+     - javatechiemongodb
+               
+     ports:
+     - "8055:8055"
+   
+    
+   anguler-service :
+    container_name : anguler-service
+    build : ./angular-10-client
+    volumes:
+     -  './angular-10-client:/usr/src/app'
+    
+    ports : 
+     - "4500:4500"
+     
+   anguler-client :
+    container_name : anguler-client
+    build : ./angular-10-client2
+    volumes:
+     -  './angular-10-client2:/usr/src/app'
+    
+    ports : 
+     - "4200:4200"
+   
+   
+   
+    
+     
+    
+    

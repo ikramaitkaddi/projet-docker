@@ -1,0 +1,20 @@
+version: "3"
+services:
+  javatechiemongodb:
+    image: mongo:latest
+    container_name: "javatechiemongodb"
+    ports:
+      - 27017:27017
+  demo_2:
+     container_name: demo_2
+     build:
+       context: C:\Users\Dell\Desktop\microservice\demo_2
+       dockerfile: Dockerfile
+     
+     
+     ports:
+     - "8050:8050"
+     links:
+     
+     - javatechiemongodb
+  
